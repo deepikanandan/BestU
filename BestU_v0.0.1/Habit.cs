@@ -12,7 +12,7 @@ namespace BestU_v0._0._1
     // In addition, we compute the current day streak, which is the 
     // number of days since you began the habit.
         public DateTime StartDate { get; set; }
-        public int DayStreak => (DateTime.Today - StartDate).Days;
+        private int DayStreak => (DateTime.Today - StartDate).Days;
 
 
     // Constructor for when we pass a date for our Habit
