@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BestU_v0._0._1
 {
+
+    // ToDo Class
+    // This is the base class for the two other types of todo's - Habits and Single ToDo's
     public class ToDo
     {
         public string Name { get; set; }
